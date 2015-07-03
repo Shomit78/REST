@@ -1,26 +1,9 @@
 ﻿'use strict';
 
-var context = SP.ClientContext.get_current();
-var user = context.get_web().get_currentUser();
+//Create an AngularJS application - ng-app reference in /Pages/default.aspx
+var myApp = angular.module('myApp', ['ui.bootstrap', 'ngSanitize', 'ngRoute', 'ngResource']);
 
-// This code runs when the DOM is ready and creates a context object which is needed to use the SharePoint object model
-$(document).ready(function () {
-    getUserName();
-});
-
-// This function prepares, loads, and then executes a SharePoint query to get the current users information
-function getUserName() {
-    context.load(user);
-    context.executeQueryAsync(onGetUserNameSuccess, onGetUserNameFail);
-}
-
-// This function is executed if the above call is successful
-// It replaces the contents of the 'message' element with the user name
-function onGetUserNameSuccess() {
-    $('#message').text('Hello ' + user.get_title());
-}
-
-// This function is executed if the above call fails
-function onGetUserNameFail(sender, args) {
-    alert('Failed to get user name. Error:' + args.get_message());
-}
+//2 variables to store the SharePoint host web url and the application web url - used for REST/OData queries
+//Application Manifest uses the query string to pass these values
+var hostweburl;
+var appweburl;
