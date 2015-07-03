@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="cb181e40-51e6-4249-b5f2-642fb809a240" 
+        solutionId="cb181e40-51e6-4249-b5f2-642fb809a240" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="LearnREST"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="79549a5a-a1c8-44db-9895-efc5f7e201cd" />
+  </features>
+</package>
