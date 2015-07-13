@@ -1,1 +1,28 @@
-﻿/* Place custom styles below */
+﻿.app-nav {
+    list-style-type:none;
+    border-bottom:1px solid silver;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width:100%;
+}
+.app-nav li {
+    display: inline;
+}
+.ul-link-span {
+    
+}
+.ul-link-spacer {
+    width:1px;
+    border:1px solid silver;
+    margin: 0px 5px;
+}
+.round-border {
+    border-radius: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,73 @@
+﻿<ul class="app-nav">
+    <li>
+        <a href="" ng-click="goTo('/')">
+            <span class="ul-link-span">Home</span>
+        </a>
+    </li>
+    <li>
+        <span class="ul-link-spacer"></span>
+    </li>
+    <li>
+        <a href="" ng-click="goTo('/Lists')">
+            <span class="ul-link-span">Lists</span>
+        </a>
+    </li>
+</ul>
+<div class="container-fluid">
+    <h1>List: {{ title }}</h1><input type="button" class="btn btn-default btn-info" name="btnCreateFolder" title="Create Folder" value="Create Folder" ng-click="createFolder()" />
+    <p class="bg-info round-border">This page uses the /_api/webs/lists(guid'list_guid') REST endpoint to get all the specific list in the hostweb.</p>
+    <table class="table table-bordered table-hover table-striped">
+        <caption>
+            Content Types
+        </caption>
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="contentType in contentTypes">
+                <td>{{ contentType.id }}</td>
+                <td>{{ contentType.name }}</td>
+                <td>{{ contentType.description }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered table-hover table-striped">
+        <caption>
+            Fields
+        </caption>
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Internal Name
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Type
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="field in fields">
+                <td>{{ field.id }}</td>
+                <td>{{ field.internalName }}</td>
+                <td>{{ field.title }}</td>
+                <td>{{ field.type }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

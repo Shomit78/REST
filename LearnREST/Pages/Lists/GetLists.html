@@ -1,0 +1,33 @@
+﻿<ul class="app-nav">
+    <li>
+        <a href="" ng-click="goTo('/')">
+            <span class="ul-link-span">Home</span>
+        </a>
+    </li>
+</ul>
+<div class="container-fluid">
+    <h1>Get Lists</h1>
+    <p class="bg-info round-border">This page uses the /_api/webs/lists REST endpoint to get all the lists in the hostweb. Click the list row to access the list details using /_api/web/lists(guid'list_guid')</p>
+</div>
+<table class="table table-bordered table-hover table-striped">
+    <caption>
+        List Collection
+    </caption>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Hidden</th>
+            <th>Items</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="list in lists" ng-click="goTo('/Lists/' + list.id)">
+            <td>{{ list.id }}</td>
+            <td>{{ list.title }}</td>
+            <td>{{ list.description }}</td>
+            <td>{{ list.hidden }}</td>
+            <td>{{ list.items }}</td>
+        </tr>
+    </tbody>
+</table>

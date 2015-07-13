@@ -78,6 +78,10 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{6723248e-22a2-4e04-9032-b2cdaef44eff}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\FileUpload.html" />
+    <Content Include="Pages\index.html" />
+    <Content Include="Pages\Lists\GetLists.html" />
+    <Content Include="Pages\Lists\List.html" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-mocks.js" />
@@ -93,8 +97,13 @@
     <Content Include="Scripts\angular-ui\ui-bootstrap.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\App.Route.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\controllers\FileUploadController.js" />
+    <Content Include="Scripts\controllers\IndexController.js" />
+    <Content Include="Scripts\controllers\ListController.js" />
+    <Content Include="Scripts\controllers\ListsController.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -105,6 +114,7 @@
     <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\moment.min.js" />
     <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\services\SharePointService.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>

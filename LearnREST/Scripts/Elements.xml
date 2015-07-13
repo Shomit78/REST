@@ -33,5 +33,11 @@
     <File Path="Scripts\angular-ui\ui-bootstrap-tpls.js" Url="Scripts/angular-ui/ui-bootstrap-tpls.js" ReplaceContent="TRUE" />
     <File Path="Scripts\angular-ui\ui-bootstrap.min.js" Url="Scripts/angular-ui/ui-bootstrap.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\angular-ui\ui-bootstrap.js" Url="Scripts/angular-ui/ui-bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App.Route.js" Url="Scripts/App.Route.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controllers\IndexController.js" Url="Scripts/controllers/IndexController.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controllers\ListsController.js" Url="Scripts/controllers/ListsController.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\services\SharePointService.js" Url="Scripts/services/SharePointService.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controllers\ListController.js" Url="Scripts/controllers/ListController.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controllers\FileUploadController.js" Url="Scripts/controllers/FileUploadController.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

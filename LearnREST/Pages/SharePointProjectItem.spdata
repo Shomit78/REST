@@ -3,5 +3,9 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
     <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="index.html" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Lists\GetLists.html" Target="Pages\Lists\" Type="ElementFile" />
+    <ProjectItemFile Source="Lists\List.html" Target="Pages\Lists\" Type="ElementFile" />
+    <ProjectItemFile Source="FileUpload.html" Target="Pages\" Type="ElementFile" />
   </Files>
 </ProjectItem>

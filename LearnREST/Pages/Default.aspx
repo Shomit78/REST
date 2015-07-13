@@ -13,20 +13,28 @@
     <script type="text/javascript" src="../Scripts/angular-route.js"></script>
     <script type="text/javascript" src="../Scripts/angular-ui/ui-bootstrap.js"></script>
     <script type="text/javascript" src="../Scripts/angular-sanitize.js"></script>
-    <script type="text/javascript" src="../Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Scripts/angular-resource.js"></script>
+    <script type="text/javascript"  src="../Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="../Scripts/moment.js"></script>
     <meta name="WebPartPageExpansion" content="full" />
 
     <!-- Add your CSS styles to the following file -->
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+    <link rel="Stylesheet" type="text/css" href="../Content/bootstrap.css" />
 
     <!-- Add your JavaScript to the following file -->
     <script type="text/javascript" src="../Scripts/App.js"></script>
+    <script type="text/javascript" src="../Scripts/App.Route.js"></script>
+    <script type="text/javascript" src="../Scripts/services/SharePointService.js"></script>
+    <script type="text/javascript" src="../Scripts/controllers/IndexController.js"></script>
+    <script type="text/javascript" src="../Scripts/controllers/ListsController.js"></script>
+    <script type="text/javascript" src="../Scripts/controllers/ListController.js"></script>
+    <script type="text/javascript" src="../Scripts/controllers/FileUploadController.js"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    REST Learning using AngularJS
+    Learning REST APIs using AngularJS and Bootstrap
 </asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>

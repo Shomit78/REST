@@ -34,5 +34,11 @@
     <ProjectItemFile Source="angular-ui\ui-bootstrap-tpls.js" Target="Scripts\angular-ui\" Type="ElementFile" />
     <ProjectItemFile Source="angular-ui\ui-bootstrap.min.js" Target="Scripts\angular-ui\" Type="ElementFile" />
     <ProjectItemFile Source="angular-ui\ui-bootstrap.js" Target="Scripts\angular-ui\" Type="ElementFile" />
+    <ProjectItemFile Source="App.Route.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="controllers\IndexController.js" Target="Scripts\controllers\" Type="ElementFile" />
+    <ProjectItemFile Source="controllers\ListsController.js" Target="Scripts\controllers\" Type="ElementFile" />
+    <ProjectItemFile Source="services\SharePointService.js" Target="Scripts\services\" Type="ElementFile" />
+    <ProjectItemFile Source="controllers\ListController.js" Target="Scripts\controllers\" Type="ElementFile" />
+    <ProjectItemFile Source="controllers\FileUploadController.js" Target="Scripts\controllers\" Type="ElementFile" />
   </Files>
 </ProjectItem>
